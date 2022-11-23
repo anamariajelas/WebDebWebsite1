@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 100vh;
+    
+}
+.logo-image{
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 3px;
+    position: absolute;
+}
+
+.nav-menu {
+    background-image: linear-gradient(180deg, pink, white); /* format seen on w3schools */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: default;
+
+}
+
+.navbar-nav a.current_page {
+	color: lightpink;
+	background-color: lightseagreen;
+	
+}
+
+.container-fluid{
+    position: relative;
+    text-align: center;
+    color: white;
+    border: none;
+}
+.banner{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 50%;
+    color: black;
+}
+style{
+    height: auto;
+    width: 100%;
+}
+
+.contact{
+    color: black;
+   
+}
+.img1{
+    border-radius: 50%;
+}
+#background{
+    background-image: linear-gradient(120deg, rgb(92, 79, 79), white); /* format seen on w3schools */
+}
+.careers{
+    color: #ffc0cb;
+
+}
+.banner-heading {
+    animation-name: animation;
+    animation-duration: 5s;
+  }
+  
+  .banner-par{ 
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  
+  }
+@keyframes animation {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .img2{
+    float: right;
+    border-radius: 50%;
+  }
+  .img3{
+      border-radius: 70%;
+  }
+
+footer{
+    background-image: linear-gradient(180deg, pink, white); /* format seen on w3schools */
+}
